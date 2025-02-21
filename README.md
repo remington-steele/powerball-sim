@@ -52,7 +52,7 @@ When a jackpot is hit (all numbers match), the simulator displays:
 
 ## Screenshots
 
-[Consider adding screenshots of the terminal UI here]
+![image](https://github.com/user-attachments/assets/a0715462-c04a-44eb-bf0c-1ed583a8a196)
 
 ## Configuration
 
