@@ -3,7 +3,7 @@ pub const TICKET_COST: f64 = 2.0;
 pub const JACKPOT_INCREASE_PER_TICKET: f64 = 1.0;
 pub const TAX_RATE: f64 = 0.5;
 pub const SHOW_MATCHING_NUMBERS: bool = true;
-pub const GUESS_DELAY_MS: u64 = 500;
+pub const GUESS_DELAY_MS: u64 = 0; // 0 for no delay
 
 pub const WHITE_BALL_COUNT: usize = 5;
 pub const WHITE_BALL_MAX: u8 = 69;

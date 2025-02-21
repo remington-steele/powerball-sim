@@ -54,7 +54,9 @@ pub fn main() !void {
             break;
         }
 
-        //std.time.sleep(config.GUESS_DELAY_MS * 1_000_000);
+        if (config.GUESS_DELAY_MS > 0) {
+            std.time.sleep(config.GUESS_DELAY_MS * 1_000_000);
+        }
     }
 }
 
